@@ -1,0 +1,117 @@
+.container {
+    max-width: 700px;
+    margin: 60px auto;
+    display: grid;
+}
+
+a {
+    color: black;
+}
+
+.name-grid {
+    display: grid;
+    grid-template-columns: max-content auto;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.text-block {
+    line-height: 25px;
+}
+
+.company-logo {
+    height: auto;
+    margin: auto;
+    width: 50%;
+}
+
+.icon-group {
+    margin: auto 0px auto 0px;
+    margin-left: 10px;
+}
+
+.icon {
+    margin-left: 2%;
+    text-decoration: none;
+    color: black;
+}
+
+.self {
+    text-align: center;
+}
+
+.portait {
+    border-radius: 40%;
+}
+
+body {
+  padding: 25px;
+  background-color: #fafafd;
+  color: black;
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+}
+
+.dark-mode {
+  background-color: rgb(53, 52, 52);
+  color: rgb(240, 230, 230);
+}
+
+.tag {
+    align-items: center;
+    background-color: #2BAE66FF;
+    border-radius: 0;
+    color: white;
+    display: inline-flex;
+    font-size: 0.75rem;
+    height: 2em;
+    justify-content: center;
+    line-height: 1.5;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    white-space: nowrap;
+    border-radius: 10%;
+}
+
+.tag-2 {
+    align-items: center;
+    background-color: #9ecae1;
+    border-radius: 0;
+    color: #1f1f1f;
+    display: inline-flex;
+    font-size: 0.75rem;
+    height: 2em;
+    justify-content: center;
+    line-height: 1.5;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    white-space: nowrap;
+    border-radius: 10%;
+}
+
+.tag-3 {
+    align-items: center;
+    background-color: #F5DA59;
+    border-radius: 0;
+    color: #1f1f1f;
+    display: inline-flex;
+    font-size: 0.75rem;
+    height: 2em;
+    justify-content: center;
+    line-height: 1.5;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    white-space: nowrap;
+    border-radius: 10%;
+}
+
+.tag-group {
+    margin-top: 5px;
+}
+
+p {
+    margin-bottom: 0px;
+}
